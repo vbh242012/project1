@@ -7,7 +7,7 @@ This Code assessment represents a coding challenge for Data Engineering roles.
 - Evaluate your coding abilities and your software engineering skills
 - Judge your technical experience
 - Understand how you design the solution 
-- Have a technical coversation once the code submission is done
+- Have a technical conversation once the code submission is done
 
 ## Challenge 
 
@@ -22,11 +22,11 @@ This challenge is composed of following steps:
 
 - Provide a detailed analysis of source data: Column values (eg: Numerical vs character), categorical columns, etc. 
 - List of KPIs to be resolved:
-  - Whats the number of jobs posting per category (Top 10)? 
-  - Whats the salary distribution per job category? 
+  - What's the number of jobs posting per category (Top 10)? 
+  - What's the salary distribution per job category? 
   - Is there any correlation between the higher degree and the salary?
-  - Whats the job posting having the highest salary per agency? 
-  - Whats the job positings average salary per agency for the last 2 years? 
+  - What's the job posting having the highest salary per agency? 
+  - What's the job postings average salary per agency for the last 2 years? 
   - What are the highest paid skills in the US market? 
 
 ### Data Processing
@@ -39,7 +39,7 @@ This challenge is composed of following steps:
 ## Expectations
 
 - Above mentioned challenge
-- Test cases 
+- Test cases : you need to create/run your own test cases for every functions you build.
 - Code Comments 
 - If any deployment to be done, proposals of the deployment steps
 - If you had to trigger your code, please suggest your approach. 
@@ -69,8 +69,9 @@ By now you would have already have below things in place:
 - Created Spark cluster with a master and 2 worker nodes.
 - Notebook to start working having the basic libraries imported (Please feel free to import any new library, if required). 
 - Datasets read that is required for your activity.
-- Sample function within the notebook arriving at a basic KPI.
-- Sample test case for testing the function. 
+- Sample function within the notebook arriving at a basic KPI. [distinct_values.py](https://github.com/projectforyou/project1/src/utils/distinct_values.py)
+- Sample test case for testing the function. [test_distinct_values.py](https://github.com/projectforyou/project1/src/tests/test_distinct_values.py)
+- Please be sure to run **make test** 
 
 ## Submission:
  
