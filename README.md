@@ -71,7 +71,7 @@ By now you would have already everything needed setup in your own machine :
 - Datasets read that is required for your activity.
 - Sample function within the notebook arriving at a basic KPI. [distinct_values.py](https://github.com/projectforyou/project1/src/utils/distinct_values.py)
 - Sample test case for testing the function. [test_distinct_values.py](https://github.com/projectforyou/project1/src/tests/test_distinct_values.py)
-- All your test cases will be runnable using **make test** 
+- All your test cases will be runnable using '**make test**'
 
 ## Submission:
  
